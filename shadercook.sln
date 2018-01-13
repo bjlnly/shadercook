@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{5629BB9A-DF51-9EC2-B33B-FEBEEC7305BE}") = "shadercook", "Assembly-CSharp-firstpass.csproj", "{1B8D3B29-53D1-6725-EAED-BCBA66A6996E}"
+EndProject
 Project("{5629BB9A-DF51-9EC2-B33B-FEBEEC7305BE}") = "shadercook", "Assembly-CSharp.csproj", "{B1AE1050-7A4C-42A6-57CC-EE705F1E1745}"
 EndProject
 Project("{5629BB9A-DF51-9EC2-B33B-FEBEEC7305BE}") = "shadercook", "Assembly-CSharp-Editor.csproj", "{C40E8AB8-0477-34C1-77C1-5E5D531D71A9}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B8D3B29-53D1-6725-EAED-BCBA66A6996E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B8D3B29-53D1-6725-EAED-BCBA66A6996E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B8D3B29-53D1-6725-EAED-BCBA66A6996E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B8D3B29-53D1-6725-EAED-BCBA66A6996E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B1AE1050-7A4C-42A6-57CC-EE705F1E1745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B1AE1050-7A4C-42A6-57CC-EE705F1E1745}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1AE1050-7A4C-42A6-57CC-EE705F1E1745}.Release|Any CPU.ActiveCfg = Release|Any CPU
