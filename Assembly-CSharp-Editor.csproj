@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{C40E8AB8-0477-34C1-77C1-5E5D531D71A9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_6;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_DUCK_TYPING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity5.3.6/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity5.3.6/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Editor\VSCodeUnity\CopyDirectory.cs" />
+     <Compile Include="Assets\Editor\VSCodeUnity\VSCodeUnity.cs" />
+     <None Include="Assets\5084OT_Code\5084_03_Codes\5084_03_Codes\Anisotropic.shader" />
+     <None Include="Assets\5084OT_Code\5084_07_Code\Code\VertexHeightMapBlend.shader" />
+     <None Include="Assets\5084OT_Code\5084_01_Code\5084_01_Code\HalfLambertDiffuse.shader" />
+     <None Include="Assets\5084OT_Code\5084_02_Code\Code\Shaders\PhotoshopLevels.shader" />
+     <None Include="Assets\5084OT_Code\5084_04_code\Codes\Shaders\MaskedReflection.shader" />
+     <None Include="Assets\5084OT_Code\5084_10_Codes\5084_10_Codes\SceneDepth_Shader.shader" />
+     <None Include="Assets\5084OT_Code\5084_02_Code\Code\Shaders\ProceduralTexture.shader" />
+     <None Include="Assets\5084OT_Code\5084_02_Code\Code\Shaders\TextureBlending.shader" />
+     <None Include="Assets\5084OT_Code\5084_06_Code\5084_06_Codes\CutoffShader.shader" />
+     <None Include="Assets\5084OT_Code\5084_10_Codes\5084_10_Codes\Overlay_Effect.shader" />
+     <None Include="Assets\5084OT_Code\5084_05_Code\5084_05_Code\DiffuseConvolution.shader" />
+     <None Include="Assets\5084OT_Code\5084_11_Codes\5084_11_Codes\NightVisionEffectShader.shader" />
+     <None Include="Assets\5084OT_Code\5084_06_Code\5084_06_Codes\AlphaShader.shader" />
+     <None Include="Assets\5084OT_Code\5084_07_Code\Code\VertexAnimation.shader" />
+     <None Include="Assets\5084OT_Code\5084_05_Code\5084_05_Code\LitSphere.shader" />
+     <None Include="Assets\5084OT_Code\5084_04_code\Codes\Shaders\SimpleReflection.shader" />
+     <None Include="Assets\5084OT_Code\5084_11_Codes\5084_11_Codes\OldFilmEffectShader.shader" />
+     <None Include="Assets\5084OT_Code\5084_10_Codes\5084_10_Codes\BlendMode_Effect.shader" />
+     <None Include="Assets\5084OT_Code\5084_06_Code\5084_06_Codes\Depth002.shader" />
+     <None Include="Assets\5084OT_Code\5084_05_Code\5084_05_Code\CarPaint.shader" />
+     <None Include="Assets\5084OT_Code\5084_02_Code\Code\Shaders\ScrollingUVs.shader" />
+     <None Include="Assets\5084OT_Code\5084_04_code\Codes\Shaders\NormalMappedReflection.shader" />
+     <None Include="Assets\5084OT_Code\5084_02_Code\Code\Shaders\AnimatedSprite.shader" />
+     <None Include="Assets\5084OT_Code\5084_07_Code\Code\SimpleVertexColor.shader" />
+     <None Include="Assets\5084OT_Code\5084_01_Code\5084_01_Code\BRDFDiffuse.shader" />
+     <None Include="Assets\5084OT_Code\5084_03_Codes\5084_03_Codes\BlinnPhong.shader" />
+     <None Include="Assets\5084OT_Code\5084_03_Codes\5084_03_Codes\SpecularMask.shader" />
+     <None Include="Assets\5084OT_Code\5084_08_Code\Code\MobileShader.shader" />
+     <None Include="Assets\5084OT_Code\5084_05_Code\5084_05_Code\Velvet.shader" />
+     <None Include="Assets\5084OT_Code\5084_05_Code\5084_05_Code\SkinShader.shader" />
+     <None Include="Assets\5084OT_Code\5084_03_Codes\5084_03_Codes\CustomBlinnPhong.shader" />
+     <None Include="Assets\5084OT_Code\5084_06_Code\5084_06_Codes\Depth001.shader" />
+     <None Include="Assets\5084OT_Code\5084_06_Code\5084_06_Codes\GUI_RenderQueue.shader" />
+     <None Include="Assets\5084OT_Code\5084_02_Code\Code\Shaders\NormalMapping.shader" />
+     <None Include="Assets\5084OT_Code\5084_10_Codes\5084_10_Codes\ImageEffect.shader" />
+     <None Include="Assets\5084OT_Code\5084_04_code\Codes\Shaders\FresnelReflection.shader" />
+     <None Include="Assets\5084OT_Code\5084_03_Codes\5084_03_Codes\Phong.shader" />
+     <None Include="Assets\5084OT_Code\5084_10_Codes\5084_10_Codes\BSC_Effect.shader" />
+     <None Include="Assets\5084OT_Code\5084_03_Codes\5084_03_Codes\MetallicSoft.shader" />
+     <None Include="Assets\5084OT_Code\5084_01_Code\5084_01_Code\RampDiffuse.shader" />
+     <None Include="Assets\5084OT_Code\5084_01_Code\5084_01_Code\BasicDiffuse.shader" />
+     <None Include="Assets\5084OT_Code\5084_08_Code\Code\OptimizedShader001.shader" />
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>C:/Program Files/Unity5.3.6/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity5.3.6/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.EditorTestsRunner">
+ <HintPath>C:/Program Files/Unity5.3.6/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity5.3.6/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Program Files/Unity5.3.6/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity5.3.6/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>C:/Program Files/Unity5.3.6/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>C:/Program Files/Unity5.3.6/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files/Unity5.3.6/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>C:/Program Files/Unity5.3.6/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>C:/Program Files/Unity5.3.6/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{B1AE1050-7A4C-42A6-57CC-EE705F1E1745}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

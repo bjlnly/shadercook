@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{5629BB9A-DF51-9EC2-B33B-FEBEEC7305BE}") = "shadercook", "Assembly-CSharp.csproj", "{B1AE1050-7A4C-42A6-57CC-EE705F1E1745}"
+EndProject
+Project("{5629BB9A-DF51-9EC2-B33B-FEBEEC7305BE}") = "shadercook", "Assembly-CSharp-Editor.csproj", "{C40E8AB8-0477-34C1-77C1-5E5D531D71A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1AE1050-7A4C-42A6-57CC-EE705F1E1745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1AE1050-7A4C-42A6-57CC-EE705F1E1745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1AE1050-7A4C-42A6-57CC-EE705F1E1745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1AE1050-7A4C-42A6-57CC-EE705F1E1745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C40E8AB8-0477-34C1-77C1-5E5D531D71A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C40E8AB8-0477-34C1-77C1-5E5D531D71A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C40E8AB8-0477-34C1-77C1-5E5D531D71A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C40E8AB8-0477-34C1-77C1-5E5D531D71A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
