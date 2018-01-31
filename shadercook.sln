@@ -1,9 +1,10 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{5629BB9A-DF51-9EC2-B33B-FEBEEC7305BE}") = "shadercook", "Assembly-CSharp-firstpass.csproj", "{1B8D3B29-53D1-6725-EAED-BCBA66A6996E}"
 EndProject
 Project("{5629BB9A-DF51-9EC2-B33B-FEBEEC7305BE}") = "shadercook", "Assembly-CSharp.csproj", "{B1AE1050-7A4C-42A6-57CC-EE705F1E1745}"
+EndProject
+Project("{5629BB9A-DF51-9EC2-B33B-FEBEEC7305BE}") = "shadercook", "Assembly-CSharp-Editor-firstpass.csproj", "{EA44F8EC-A149-745A-C51E-779DE16D16EE}"
 EndProject
 Project("{5629BB9A-DF51-9EC2-B33B-FEBEEC7305BE}") = "shadercook", "Assembly-CSharp-Editor.csproj", "{C40E8AB8-0477-34C1-77C1-5E5D531D71A9}"
 EndProject
@@ -21,13 +22,14 @@ Global
 		{B1AE1050-7A4C-42A6-57CC-EE705F1E1745}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1AE1050-7A4C-42A6-57CC-EE705F1E1745}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1AE1050-7A4C-42A6-57CC-EE705F1E1745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA44F8EC-A149-745A-C51E-779DE16D16EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA44F8EC-A149-745A-C51E-779DE16D16EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA44F8EC-A149-745A-C51E-779DE16D16EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA44F8EC-A149-745A-C51E-779DE16D16EE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C40E8AB8-0477-34C1-77C1-5E5D531D71A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C40E8AB8-0477-34C1-77C1-5E5D531D71A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C40E8AB8-0477-34C1-77C1-5E5D531D71A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C40E8AB8-0477-34C1-77C1-5E5D531D71A9}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj

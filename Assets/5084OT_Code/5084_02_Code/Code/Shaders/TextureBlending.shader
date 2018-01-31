@@ -21,6 +21,7 @@ Shader "CookbookShaders/Chapter02/TextureBlending"
 		
 		CGPROGRAM
 		#pragma surface surf Lambert
+		#pragma target 4.0
 
 		float4 _MainTint;
 		float4 _ColorA;
