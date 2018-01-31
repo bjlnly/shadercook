@@ -44,7 +44,7 @@
 			 float NdotL = saturate(dot(s.Normal, normalize(lightDir)));
 			 
 			 float HdotA = dot(normalize(s.Normal + s.AnisoDirection), halfVector);
-			float aniso = max(0, sin(radians((HdotA + _AnisoOffset) * 180)));
+			 float aniso = max(0, sin(radians((HdotA + _AnisoOffset) * 180)));
 			 float spec = saturate(pow(aniso, s.Gloss * 128) * s.Specular);	
 			
 			fixed4 c;
